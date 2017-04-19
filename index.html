@@ -1,3 +1,433 @@
+<!DOCTYPE html>
+<html lang="cs">
+
 <head>
-  <title>Jireckovi.cz</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Jirečkovi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
+
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
+
 </head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="#page-top">Jirečkovi.cz</a>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#informace">Informace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#potvrdit-ucast">Povrdit účast</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Lucie Hornišrová a Daniel Jireček</div>
+                <div class="intro-heading">Budeme se brát!</div>
+                <a href="#potvrdit-ucast"><div class="btn btn-xl">Potvrdit účast</div></a>
+                <div id="clock"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Snoubenci -->
+    <section class="bg-faded" id="snoubenci">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Snoubenci</h2>
+                    <h3 class="section-subheading text-muted">Jsi mou nadějí i touhou, mou láskou a sílou, jsi mi vším, tento den, celý život.</h3>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6">
+                  <div class="snoubenec">
+                      <img class="mx-auto rounded-circle" src="img/snoubenci/1.jpg" alt="">
+                      <h4>Daniel Jireček</h4>
+                      <p class="text-muted">Pan pískač, ženich</p>
+                  </div>
+              </div>
+                <div class="col-sm-6">
+                    <div class="snoubenec">
+                        <img class="mx-auto rounded-circle" src="img/snoubenci/2.jpg" alt="">
+                        <h4>Lucie Hornišrová</h4>
+                        <p class="text-muted">Slečna koňařka, nevěsta</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                    <p class="large text-muted">Oznamují, že budou oddáni dne 8. července 2017 ve 13:00 hodin v Novém zámku v Kostelci nad Orlicí</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informace -->
+    <section id="informace">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Informace</h2>
+                    <h3 class="section-subheading text-muted">Moc Vás prosíme, nechystejte žádná překvapení, jako je únos nevěsty nebo chomout pro ženicha a ani jiné srandičky. Nepřejeme si to, děkujeme. </h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-gift fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Dary</h4>
+                    <p class="text-muted">S dary si hlavu nelámejte, nejvíce nás potěší, když náš velký den oslavíte s námi, avšak trváte-li na daru, přispějte nám prosím na svatbu. :) Děkujeme</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-bus fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Doprava</h4>
+                    <p class="text-muted">Zřídili jsme pro Vás dopravu autobusem,  využijte ji prosím. Byli bychom rádi, kdybychom všichni hromadně odjeli z Tisové směrem do Kostelce.  Zpátky pojede nevěsta i ženich s vámi autobusem.</p>
+                    <p class="text-muted">Na místě obřadu ani následné hostiny  není dostatečné místo pro parkování  většího množství aut. Auta mohou zůstat u nás před domem, kam Vás zpět dopravíme. Rozvoz pro místní je zařízen.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Ubytování</h4>
+                    <p class="text-muted">Kdo by se rozhodl přespat, může zvolit stan a travnatou plochu v areálu, případně si zarezervovat hotel v nedaleké Chocni.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3 class="section-subheading text-muted">Celý den s námi budou dva skvělý fotografové , proto prosíme, dejte prostor jim,nechte  své mobilní telefony pěkně uložené. Fotek bude víc než dost a po svatbě Vám budou poskytnuty.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photo1"></section>
+
+    <!-- Program -->
+    <section id="program">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program</h2>
+                    <h3 class="section-subheading text-muted">Časy s programem jsou pouze orientační.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/tisova.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>11:00</h4>
+                                    <h4 class="subheading">Příjezd do Tisové</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/karosa.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>12:00</h4>
+                                    <h4 class="subheading">Odjezd</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">  </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/obrad.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>13:00</h4>
+                                    <h4 class="subheading">Obřad</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Bude se konat v Novém zámku v Kosteleci nad Orlicí, v zrcadlovém sále. Po obřadu setrvávejte před zámkem, abychom mohli udělat skupinové focení.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/cam.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>13:30</h4>
+                                    <h4 class="subheading">Společné focení</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/obed.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>14:30</h4>
+                                    <h4 class="subheading">Oběd</h4>
+                                </div>
+                                <div class="timeline-body">
+                                  <p class="text-muted">V hájence Bošínské rezervace</p>
+                                  <h5>Menu</h5>
+                                  <p class="text-muted">Babiččin hovězí vývar</p>
+                                  <p class="text-muted">Řízečky</p>
+                                  <h5>Raut</h5>
+                                  <p class="text-muted">Grilovaná kýta a krůta</p>
+                                  <p class="text-muted">Grilovaná zelenina</p>
+                                  <h5>Dále</h5>
+  	                              <p class="text-muted">Výborné kremrole od babičky, skvělý dort, a spoustu dalších dezertů! A kdo nerad sladké jistě ocení domácí pálenku, na kterou ženich poctivě sbíral švestičky</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/cam.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>15:00 .. 16:30</h4>
+                                    <h4 class="subheading">Focení novomanželnů</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/dort.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>17:00</h4>
+                                    <h4 class="subheading">Dort</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/tanec.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>18:00</h4>
+                                    <h4 class="subheading">První tanec</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/tickets.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>20:00</h4>
+                                    <h4 class="subheading">Tombola</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/program/sparklers.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>22:00</h4>
+                                    <h4 class="subheading">Tanec v kruhu prskavek</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Část<br>našeho<br>příběhu!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="photo3"></section>
+    <section id="potvrdit-ucast">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Potvrdit účast</h2>
+                    <h3 class="section-subheading text-muted">Prosíme každého o vyplnění, děkujeme.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Vaše jméno" id="name" required="" data-validation-required-message="Prosím zadejte jméno." aria-invalid="false">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Váš email" id="email" required="" data-validation-required-message="Prosím zadejte emailovou adresu.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Telefonní číslo" id="phone" required="" data-validation-required-message="Prosím zadejte telefoní číslo.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                  <div class="form-group">
+                                    <h4 class="section-heading">Potvrzuji ůčast</h3>
+                                    <select class="form-control" id="potvrdit">
+                                      <option>Ano</option>
+                                      <option>Ne</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                  <h4 class="section-heading">Počet lidí s vámi</h3>
+                                  <select class="form-control" id="potvrdit">
+                                    <option>Nikdo jiný</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                  <h4 class="section-heading">Ubytování</h3>
+                                  <select class="form-control" id="potvrdit">
+                                    <option>Ne</option>
+                                    <option>Ano, stan</option>
+                                    <option>Ano, hotel v Chocni</option>
+                                  </select>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Jména ostatních hostů, co přijedou s vámi." id="message" required="" data-validation-required-message="Prosím zadejte aspoň něco."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Odeslat</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Lucka a Dan Jirečkovi 2017</span>
+                </div>
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-countdown/jquery-countdown.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
